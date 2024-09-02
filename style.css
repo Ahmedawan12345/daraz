@@ -1,0 +1,292 @@
+body{
+    background: #e7e8ec;
+}
+
+::selection{
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+
+  a,
+  a:hover {
+      text-decoration: none;
+      color: red
+  }
+
+  a,
+  a:focus,
+  input,
+  input:focus,
+  button,
+  button:focus {
+      outline: none;
+  }
+
+  p {
+      font-size: 14px;
+  }
+
+  img {
+      width: 100%;
+  }
+
+  .icon {
+      font-size: 30px;
+  }
+
+  ul {
+      list-style: none;
+  }
+
+  .text__primary {
+      color: var(--primary-color);
+  }
+
+  .itemer__name {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      font-size: 24px;
+      color: var(--gray-color);
+  }
+
+/* topHeader__section Style */
+#topHeader__section {
+    padding: 2px 0px;
+}
+
+#topHeader__section a {
+    font-size: small;
+    color: var(--dark-color);
+    transition: all 350ms;
+    -webkit-transition: all 350ms;
+    -moz-transition: all 350ms;
+    -ms-transition: all 350ms;
+    -o-transition: all 350ms;
+    color: white;
+}
+
+#topHeader__section a:hover {
+    color:orange;
+    text-decoration: none;
+
+}
+
+
+/* nav style */
+/* mobile nav bar  */
+.mobile__Manu , .Barger__Mobile_Icon{
+    display: none;
+}
+header {
+    background-color: #fff;
+    position: sticky !important;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    position: relative;
+    padding: 7px 0;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 15%;
+}
+
+.logo img {
+    width: 130px;
+    height: 41px;
+}
+
+.nav__Right__Group {
+    display: block;
+    width: 85%;
+}
+
+.nav__Right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav__Right img {
+    max-width: 188px;
+    display: block;
+}
+
+.nav__Right form {
+    width: 80%;
+    background-color: var(--bg-color);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    overflow: hidden;
+}
+
+.searchProducts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.searchProducts input {
+    width: 93%;
+    display: block;
+    padding: 9.5px 15px;
+    border: none;
+    background-color: var(--bg-color);
+
+}
+
+.searchProducts .submitButton {
+    width: 7%;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+}
+
+.searchProducts .submitButton .icon {
+    width: 100%;
+    display: block;
+}
+
+.carousel-indicators button{
+    border-radius: 100%;
+}
+
+.main-sale{
+    background: #e7e8ec;
+}
+
+.sale-now-btn{
+    display: flex;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+.sale-now-btn h1{
+    color: rgb(245, 114, 36);
+    font-size: 24px;
+    font-weight: 500;
+}
+.sale-now-btn button{
+    align-items: flex-end;
+    margin-left: auto;
+}
+.sale-now-btn button:hover{
+    
+    background-color: none !important;
+}
+
+.loadmore button{
+    width: 260px;
+    background-color: none !important;
+    border: 1px solid #1a9cb8;
+    color: #1a9cb8;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 387px;
+}
+
+.loadmore button:hover{  
+    color: #1a9cb8;
+}
+
+.hidden {
+    display: none;
+  }
+
+
+/* custommer care section css start  */
+
+.customercare h1{
+    font-size: 27px;
+    
+}
+
+.customercare a{
+    color: black;
+    
+}
+
+.happyshopping{
+    display: flex;
+}
+.happyshopping img{
+    width: 80px;
+    border-radius: 70px !important; 
+
+}
+
+.happyshopping h1{
+    color: #f36f36;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 20px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.happyshopping h1 span{
+    color: #0f136d;
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 2px;
+    font-weight: bolder;
+}
+
+
+.daraztransformed h2{
+    color: #606060;
+     font-size: 10px;
+     font-weight: bold
+ }
+.daraztransformed p{
+   color: #606060;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0 0 5px;
+}
+
+.sub-cat {
+    background-color: #1a9cb8;
+    text-align: center;
+    height: 150px;
+    padding: 30px;
+}
+
+.sub-cat img {
+    width: 200px !important;
+
+}
+
+.box{
+    background-color:white;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 30px;
+    
+}
+
+.box:hover{
+    box-shadow: 10px 10px 10px 10px rgba(155, 150, 150, 0.467);
+    cursor: pointer;
+}
